@@ -1,0 +1,10 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/jsconfig.json",
+  "compilerOptions":{
+    "types" : [
+      "@nuxt/types",
+      "axios"
+    ]
+  }
+}
